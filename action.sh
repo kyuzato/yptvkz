@@ -1,4 +1,4 @@
-cp CREDS/config.ini REPOS/config.ini
 cd REPOS
-pip3 install -U -r requirements.txt
-python3 -m tg_bot
+cp CREDS/version.gs REPOS/version.gs
+npm install
+node main.gs
